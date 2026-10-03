@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 1200px;
+    width: 100%;
+    margin:150px auto;
+}
+
+h1 { color: #2c3e50; text-align: center; margin-bottom: 5px; }
+.scheme-text { text-align: center; color: #7f8c8d; margin-bottom: 25px; }
+
+.selection-box { margin-bottom: 20px; text-align: center; }
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th { background-color: #3498db; color: white; }
+
+.actions { margin-top: 20px; display: flex; gap: 10px; justify-content: center; }
+
+button {
+    padding: 12px 25px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover { background-color: #219150; }
+
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    background: #e8f6f3;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #16a085;
+}

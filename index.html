@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTU 2022 Scheme Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VTU SGPA & CGPA Calculator</h1>
+        <p class="scheme-text">Scheme: 2022 (CBCS)</p>
+
+        <div class="selection-box">
+            <label for="semester">Select Semester:</label>
+           <select id="semester" onchange="loadSubjects()">
+    <option value="">--Choose Semester--</option>
+    <option value="1">1st Semester</option>
+    <option value="2">2nd Semester</option>
+    <option value="3">3rd Semester</option>
+    <option value="4">4th Semester</option>
+    <option value="5">5th Semester</option>
+    <option value="6">6th Semester</option>
+    <option value="7">7th Semester</option>
+    <option value="8">8th Semester</option>
+</select>
+        </div>
+
+        <div id="subject-container">
+            </div>
+
+        <div class="actions" id="action-buttons" style="display:none;">
+            <button onclick="calculateSGPA()">Calculate SGPA</button>
+            <button onclick="addToCGPA()">Add to CGPA Calculation</button>
+        </div>
+
+        <div class="result" id="result-display"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
